@@ -1,0 +1,44 @@
+<html>
+    <h1 align = "center">
+        Shopping items
+</h1>
+    <center>
+        <table border="5">
+        <th bgcolor="lightblue">Product</th>
+        <th bgcolor="lightblue">Details</th>
+            <tr>
+            <td bgcolor ="white"><h4>Mobile phone</h4>
+                <img src = "Mobile phone.jpg" height = "100",width="600">
+            </td>
+                <td>The Apple iPhone 15 5G comes with a 6.1 inch touchscreen with Crash Detection, features Dynamic Island and a new 48-megapixel main camera with 4x resolution, 20 hours of video playback. This is all powered by the Apple A16 Bionic GPU chipset.<br><b>Link : </b><a href = "https://amzn.in/d/0daputpy"target="_self"> iphone</a>
+                </td>
+                </tr>
+                <tr>
+                    <td bgcolor ="white"><h4>Air conditioner</h4>
+                        <img src = "Air conditioner.jpg" height = "100",width="600">
+                    </td>
+                        <td>Split AC with inverter compressor: Variable speed compressor which adjusts power depending on heat load. Convertible / adjustable with 4 cooling modes through remote control to operate in different tonnages for different cooling needs (20% to 120% capacity).<br><b>Link : </b><a href = "https://amzn.in/d/0cYrIMb2"target="_self"> Air Conditioner</a>
+                        </td>
+                        </tr>
+                        <tr>
+                            <td bgcolor ="white"><h4>Bluetooth headphone</h4>
+                                <img src = "bluetooth headset.jpg" height = "100",width="600">
+                            </td>
+                                <td>Samsung Galaxy Buds2 Pro, with Innovative AI features, Bluetooth Truly Wireless in Ear Earbuds with Noise Cancellation.<br><b>Link : </b><a href = "https://amzn.in/d/01ybL3M1"target="_self"> Samsung headphone</a>
+                                </td>
+                                </tr>
+                                <tr>
+                                    <td bgcolor ="white"><h4>Camera </h4>
+                                        <img src = "camera.jpg" height = "100",width="600">
+                                    </td>
+                                        <td>Sony Alpha ZV-E10L 24.2 Mega Pixel Interchangeable-Lens Mirrorless vlog Optical zoom Camera with 16-50mm Lens,for Creators(APS-C Sensor,Advanced Autofocus,Clear Audio,4K Movie Recording).<br><b>Link : </b><a href = "https://amzn.in/d/07oASdZC"target="_self"> Sony camera</a>
+                                        </td>
+                                        </tr>
+                                        <tr>
+                                            <td bgcolor ="white"><h4>Smart watch</h4>
+                                                <img src = "smart watch.jpg" height = "100",width="600">
+                                            </td>
+                                                <td>Noise Newly Launched ColorFit Pro 5 Max 1.96" AMOLED Display Smart Watch, BT Calling, Post Training Workout Analysis, VO2 Max, Rapid Health, 5X Faster Data Transfer.<br><b>Link : </b><a href = "https://amzn.in/d/05jOjFwI"target="_self"> Noise smart watch</a>
+                                                </td>
+                                                </tr>
+                                            </html>
