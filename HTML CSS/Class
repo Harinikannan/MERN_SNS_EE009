@@ -1,0 +1,13 @@
+<!DOCTYPE html>
+           <html>
+            <link rel="stylesheet" href="style.css">
+           <style type="text/CSS">
+            h1{
+                color: aqua;
+                font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+            }
+    </style>
+<h1>CSS</h1>
+<h2>good morning</h2>
+<h3 style="color: brown;">welcome</h3>
+</html>

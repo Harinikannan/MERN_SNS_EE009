@@ -1,0 +1,111 @@
+<html>
+    <head>
+        <title>Introduction of html</title>
+        <body>
+            <h4>
+                Definition of H :
+            </h4>
+            <p>h is used for show the heading in bold. And it has six different sizes first one is h1.</p>
+            
+            <h1>
+                H1
+            </h1>
+            <h2>
+                H2
+            </h2>
+            <h3>
+                H3
+            </h3>
+            <h4>
+                H4
+            </h4>
+            <h5>
+                H5
+            </h5>
+            <h6>
+                H6
+            </h6>
+            <h4>
+                Definition of Bold tag :
+            </h4>
+            <p>This tag is used to make the word <b>bold</b> .
+            </p>
+            <h4>
+                Definition of italic tag :
+            </h4>
+            <p>This tag is used to make the word <b><i>italic</i></b> .
+            </p>
+            <h4>
+                Definition of superscript and  subscript :
+            </h4>
+            <h5>
+                super script :
+            </h5>
+            <p>
+                This tag is used to write the power value. For example : x<sup>2</sup>
+            </p>
+            <h5>
+                sub script :
+            </h5>
+            <p>
+                This tag is used to write the base value. For example : O<sub> 2</sub>,H<sub>2</sub>O
+            </p>
+            <h4>
+                Definition of break tag :
+            </h4>
+            <p>
+                This tag is used to break the lines.For example <br>Introduction<br>to<br>html
+            </p>
+            <h4>
+                Definition of pre tag : 
+            </h4>
+            <p>
+                This tag is used to print the value withh white space collapsing
+                For example<pre>H T M L</pre>
+            </p>
+           <h4>
+            Definition of horizontal line tag :  
+           </h4> 
+<p>
+    This tag is used for to make the horizontal line.
+    <hr>
+    <hr>
+    <hr>
+</p>
+<h4>
+    Definition of strong & bold tag:
+</h4>
+      <p>
+        This tag is used for letters to make bold.For example <strong>HTML</strong> 
+      </p>
+      <h4>
+        Definition of blockquoto:
+      </h4>
+      <p>
+        this tag is used to create the paragragh inside the paragraph
+      </p>
+      <h4>
+        Definition of Q tag:
+      </h4>
+      <p>
+        this tag is used to double quoto. For example : Deparment of <q>EEE</q>
+      </p>
+      <h4>
+        Definition of abbreviation tag:
+      </h4>
+      <p>
+        This tag is used for abbreviation. For example :<abbr title : " Electrical and Electronics Engineering">EEE</abbr>
+      </p>
+      <h4>
+        Definition of definition tag:
+      </h4>
+        This tag shows the main heading of the definition.For example ;<p><dfn>HTML</dfn> is stands for hyper text markup language </p>.
+      <h4>
+        Definition of address tag:
+      </h4>
+      <p>
+        use to contain the contact of the author or user and make the address in the italic style. <br>For example :<address>Tirupur</address>
+      </p>
+        </body>
+    </head>
+</html>

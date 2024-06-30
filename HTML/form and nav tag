@@ -1,0 +1,75 @@
+<html>
+<html lang="en">
+    <head>
+        <title>Form</title>
+    </head>
+    <h3><div align ="center">Form</div></h3>
+    <body>
+        <form action="https://www.example.com/login.php">
+            <p>Username:
+                <input type = "text"name="username"size="15"maxlength="30"/>
+            </p>
+            <p>Register no:
+                <input type = "text"name="register no"size="15"maxlength="30"/>
+            </p>
+            <p>Department:
+                <input type = "text"name="Department"size="15"maxlength="30"/>
+            </p>
+            <p>Year:
+                <input type = "text"name="Year"size="15"maxlength="30"/>
+            </p>
+            <p>Email id:
+                <input type = "text"name="Email id"size="15"maxlength="50"/>
+            </p>
+            <p>Address:
+                <input type = "text"name="Address"size="15"maxlength="100"/>
+            </p>
+            <p>Mobile no:
+                <input type = "text"name="Mobile no"size="15"maxlength="0"/>
+            </p>
+            <h4> Radio</h4>
+            <p><br>Are u from which department?</br>
+                <br><input type ="radio" name="department" value="EEE">EEE</br>
+                <br><input type ="radio" name="department" value="ECE">ECE</br>
+                <br><input type ="radio" name="department" value="CSE">CSE</br>
+                <br><input type ="radio" name="department" value="IT">IT</br>
+                </p >
+                <h4> chechbox</h4>
+            <p><br>What is your favorite color?</br>
+                <br><input type ="checkbox" name="color" value="White">White</br>
+                <br><input type ="checkbox" name="color" value="Red">Red</br>
+                <br><input type ="checkbox" name="color" value="Gold">Gold</br>
+                <br><input type ="checkbox" name="color" value="Black">Black</br>
+                </p>
+                <h4> drop down</h4>
+                <p><br>Which is ur favorite subject?</br></p>
+                <select name = "subject">
+                    <option value ="Subject">Subject</option>
+                    <option value ="PSA">PSA</option>
+                    <option value ="IA">IA</option>
+                    <option value ="circuit theory">circuit theory</option>
+                    <option value ="IOT">IOT</option>
+                </select>
+                <h4> multiple drop down</h4>
+                <p><br>Which is ur favorite subject?</br></p>
+                <select name = "subject" multiple>
+                    <option value ="Subject">Subject</option>
+                    <option value ="PSA">PSA</option>
+                    <option value ="IA">IA</option>
+                    <option value ="circuit theory">circuit theory</option>
+                    <option value ="IOT">IOT</option>
+                </select>
+                <head>
+                    <title>HTML PAGES</title>
+                </head>
+                <h3><u><div align ="center">HTML PAGES</u></div></h3>
+                <header><nav>
+                <br><a href="https://google.com">google</a></br>
+                </nav></header>
+                <img src="https://www.picsum.photos/200/200" alt="picsum">
+            <tr>
+                <td colspan="2"><input type="submit" value="submit">
+            </tr>
+        </form>
+    </body>
+    </html>

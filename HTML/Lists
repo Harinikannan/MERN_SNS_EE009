@@ -1,0 +1,45 @@
+<html>
+    <h3>
+        Types of lists(ordered list eg)
+     </h3>
+        <body>
+<ol>
+    <li>ordered list</li>
+    <li>unordered list</li>
+    <li>definition list</li>
+</ol>
+<h3>
+    Types of lists(unordered list eg)
+ </h3>
+ <ul>
+    <li>ordered list</li>
+    <li>unordered list</li>
+    <li>definition list</li>
+ </ul>
+ <h3>
+    Types of lists(Nested list)
+ </h3>
+    <ol>
+        <li>types of lists</li>
+<ul><li>ordered list</li>
+    <li>unordered list</li>
+    <li>definition list</li></ul>
+    <li>nested list</li>
+    </ol>
+    <h3>
+        definition list
+    </h3>
+    <dl>
+        <dt>HTML</dt>
+        <dd>Hypertext Markup Language, a standardized system for tagging text files to achieve font, colour, graphic, and hyperlink effects on World Wide Web pages:
+            "an HTML file"
+            </dd>
+            <dt>HTML stands for</dt>
+            <dd>HTML stands for Hyper Text Markup Language, the standard markup language for creating Web pages.</dd>
+            
+    </dl>
+
+
+
+        </body>
+</html>

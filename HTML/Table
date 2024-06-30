@@ -1,0 +1,24 @@
+<html>
+        <body bgcolor="lightpink">
+            <img src = "dog.img" height = "250",width="400">
+            <h1 align = "center">
+                Table
+        </h1>
+            <center>
+                <table border="4" background="th.jpg">
+                    <caption align="bottom">
+                        <i>Table</i>
+                    </caption>
+                <th bgcolor="lightblue">Details</th>
+                <th bgcolor="lightblue">students</th>
+                    <tr>
+                    <td bgcolor ="white"><h4>No of student enrolled</td>
+                        <td bgcolor="gold">4</td>
+                        </tr>
+                        <tr>
+                            <td bgcolor ="white"><h4>No of student non enrolled</td>
+                            <td bgcolor="gold">6</td>
+                            </tr>
+                           </center> 
+                            </table>
+</html>

@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+    <html>
+<html lang="en">
+    <h2><div align ="center">NETFLIX</div></h2>
+    <body>
+<div align ="center"><h4>LOGIN</h4></div><form action="home.html">
+    <div align ="center">
+<p>Username<br>
+        <input type = "text"name="username"/>
+    </p>
+    <p>Password<br>
+        <input type = "text"name="Password"/>
+    </p>
+     <input type="submit" value="Login">
+</form></div><br>
+<br>
+<hr>
+    <h3 id="about us">About us</h3>
+<p>
+    At Netflix, we aspire to entertain the world, thrilling audiences everywhere. To do that, we’ve developed an unusual company culture focused on excellence, creating an environment where our talented people can thrive.
+</p></hr>
+<hr><h3 id="Contact">Contact</h3>
+<p>
+    USA
+</p>
+</hr>
+<br>
+<br>
+<footer>
+    <p>
+      <div align="Center"> © 2024 NETFLIX</div>
+    </p>
+</footer>
+</body></html>
+</html>
