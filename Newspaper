@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Newspaper</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Playwrite+IT+Moderna:wght@100..400&display=swap');
+        </style>
+        <style>
+            h2
+            {
+                font-family: "Playwrite IT Moderna", cursive;
+                background-color: aqua;
+                font-weight: bold;
+                font-style: italic;
+                text-transform:capitalize ;
+                text-align: center;
+                font-size: 24px; 
+            }
+            </style>
+    <style>
+        body {
+            background-color: white;
+            color: black;
+            font-family: monospace;
+        }
+        .main-box{
+            width: 100%;
+            padding: 10px;
+            margin: 5px;
+        }
+        .box1 {
+            width: 500px;
+            height: 600px;
+            text-align: justify;
+            border: 3px solid black;
+            margin: 0px 20px 0px 20px;
+            padding: 5px;
+            overflow: auto;
+        }
+        .fhalf {
+            float: left;
+            width: 45%;
+            padding: 5px;
+            margin: 5px;
+            border: 2px solid;
+        }
+
+        .shalf {
+            float: right;
+            width: 45%;
+            padding: 5px;
+            margin: 5px;
+            border: 2px solid;
+        }
+
+        .thalf {
+            float: left;
+            width: 45%;
+            padding: 5px;
+            margin: 5px;
+            border: 2px solid;
+        }
+
+        .fohalf {
+            float: right;
+            width: 45%;
+            padding: 5px;
+            margin: 5px;
+            border: 2px solid;
+        }
+        .img-div {
+            float: left;
+            width: 45%;
+            padding: 5px;
+            margin: 5px;
+            border: 2px solid black;
+            text-align: center;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="main-box">
+        <h2 align ="center">NEWSPAPER</h2>
+    <div class="box1">
+        <div class="fhalf">
+            <b>Exits polls show victory for far-right in the first round of France election :</b>
+            Marine Le Pen’s far-right National Rally (RN) party won the first round of France’s parliamentary elections on Sunday, exit polls showed, but the final result will depend on days of horsetrading before next week’s run-off.
+The RN was seen winning around 34% of the vote, exit polls from Ipsos, Ifop, OpinionWay and Elabe showed. That was ahead of leftist and centrist rivals, including President Emmanuel Macron’s Together alliance, whose bloc was seen winning 20.5%-23%.
+        </div>
+        <div class="shalf">
+            <b>CIC orders IIT-M to share status of probe into Ph.D scholar’s death in March 2023</b>
+After the institute declined to provide the information under the Right to Information Act, the Central Information Commission ruled that the matter involved ‘elements of public interest’ and directed the Chief Public Information Officer to share the updated status of the investigation
+        </div>
+        <div class="thalf">
+            <b>2024 T20 World Cup: Analysis of a famous Indian victory</b>
+            As Team India scripts a famous T20 World Cup win after 17 years, The Hindu looks at the performance of the side and the legacy of key individuals
+        </div>
+        <div class="fohalf">
+            <b>Kareena Kapoor Khan’s ‘The Buckingham Murders’ to release on September 13</b>
+            Kareena, who most recently appeared in ‘Crew’ alongside Tabu and Kriti Sanon, will is also making her production debut with the murder mystery
+        </div>
+        <div class="img-div">
+            <img src="newspaper 1.jpg" height="100" width="100">
+        </div>
+        <div class="img-div">
+            <img src="newspaper 2.jpg" height="100" width="100">
+        </div>
+    </div>
+</div>
+</body>
+</html>
