@@ -70,13 +70,21 @@
             margin: 5px;
             border: 2px solid;
         }
-        .img-div {
+        .img-div1 {
             float: left;
             width: 45%;
             padding: 5px;
-            margin: 5px;
+            margin:-50px 5px;
             border: 2px solid black;
-            text-align: center;
+            /* text-align: center; */
+        }
+        .img-div2 {
+            float: left;
+            width: 45%;
+            padding: 5px;
+            margin: 60px 5px;
+            border: 2px solid black;
+            /* text-align: center; */
         }
     </style>
 </head>
@@ -102,11 +110,11 @@ After the institute declined to provide the information under the Right to Infor
             <b>Kareena Kapoor Khan’s ‘The Buckingham Murders’ to release on September 13</b>
             Kareena, who most recently appeared in ‘Crew’ alongside Tabu and Kriti Sanon, will is also making her production debut with the murder mystery
         </div>
-        <div class="img-div">
-            <img src="newspaper 1.jpg" height="100" width="100">
+        <div class="img-div1">
+            <img src="newspaper 1.jpg" height="100" width="200">
         </div>
-        <div class="img-div">
-            <img src="newspaper 2.jpg" height="100" width="100">
+        <div class="img-div2">
+            <img src="newspaper 2.jpg" height="100" width="200">
         </div>
     </div>
 </div>

@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+         p a{
+            text-transform: uppercase;
+            background-color: gold;
+            text-decoration: none;
+        }
+    </style>
+</head>
+<body>
+    <p>
+        Lorem ipsum<i><b><a href="https://www.wikipedia.org">olor</a></b> </i> sit amet consectetur adipisicing elit. Nostrum, ipsam quod! Voluptatum distinctio beatae
+        laboriosam <span>Lorem <a href="/desendantSelector.html">descendant</a> ipsum dolor sit.</span> minus quo corporis, qui aspernatur unde exercitationem,<a href="https://www.wikipedia.org">olor</a> sunt debitis eveniet ducimus aut, voluptas
+        molestiae harum?
+    </p>
+</body>
+</html>

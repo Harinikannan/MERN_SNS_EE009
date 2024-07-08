@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bluetooth Headset</title>
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <link href="styles.css" rel="stylesheet">
+</head>
+<body>
+
+    <nav class="navbar navbar-expand-md navbar-light pt-5 pb-4">
+        <div class="container-xl">
+            <a class="navbar-brand" href="#intro">
+                <span class="text-secondary fw-bold">
+                    <i class="bi bi-tree-fill"></i>
+                    Amazon
+                </span>
+            </a>
+    <button class=" navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#main-nav"
+                aria-controls="main-nav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+ 
+            <div class="collapse navbar-collapse justify-content-end align-center" id="main-nav">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#topics">About us</a>
+                    </li>
+                    <li class="nav-item">
+ <a class="nav-link" href="#reviews">Reviews</a>
+                    </li>
+                    <form class="form-inline my-2 my-lg-0">
+                        <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+                        <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+                    </form>
+        
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+
+    <div class="container mt-5">
+        <div class="row">
+            <div class="col-md-6">
+                <img src="project 1.jpg" class="img-fluid" alt="Bluetooth Headset" height="450" width="450">
+            </div>
+            <div class="col-md-6">
+                <h1 class="product-title"><H3>boAt Airdopes 141 Bluetooth Truly Wireless in Ear Earbuds with 42H Playtime,Low Latency Mode for Gaming, ENx Tech, IWP, IPX4 Water Resistance, Smooth Touch Controls(Cyan Cider)</h1>
+                <p class="product-price"> ₹1,299</p>
+                <p class="product-description">
+                    This Bluetooth headset offers high-quality sound and a comfortable fit. It features noise-canceling technology and a long-lasting battery.
+                </p>
+                <button class="btn btn-primary btn-lg">Add to Cart</button>
+                <button class="btn btn-secondary btn-lg">Buy Now</button>
+            </div>
+        </div>
+
+        <div class="row mt-5">
+            <div class="col-md-12">
+                <h2>Product Details</h2>
+                <ul class="list-group">
+                    <li class="list-group-item">Brand - boAt</li>
+                    <li class="list-group-item">Colour - Gray</li>
+                    <li class="list-group-item">Ear Placement - In Ear</li>
+                    <li class="list-group-item">Form Factor -  In Ear</li>
+                </ul>
+            </div>
+        </div>
+    </div><br>
+    <h3>About this item</h3>
+    <ul>
+        <li>Playback- Enjoy an extended break on weekends with your favourite episodes on stream, virtue of a playback time of up to 42 hours including the 6 hours nonstop playtime for earbuds.</li>
+        <li>Low Latency- Our BEAST mode makes Airdopes 141 a partner in entertainment with real-time audio and low latency experience. These tws earbuds are perfect for a gaming experience.</li>
+        <li>Clear Voice Calls- It dons built-in mic on each tws earbud along with our ENx Environmental Noise Cancellation tech that ensures a smooth delivery of your voice via voice calls</li>
+        <li>boAt Signature Sound- Delve into your cherished boAt Immersive auditory time with Airdopes 141</li>
+        <li>ASAP Charge- The earbuds are equipped with our ASAP Charge feature that offers up to 75 min of playtime in just 5 min of charge; while the carry case comes along with the Type C interface</li>
+        <li>Instant Connect- Connect to your morning playlists without any hiccup via the Insta Wake N’ Pair technology that powers on the earbuds as soon as you open the case cover</li>
+        <li>Voice Assistant- You can summon your default voice assistant(s) with ease via its One Touch Voice Assistant</li>
+    </ul>
+
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>
