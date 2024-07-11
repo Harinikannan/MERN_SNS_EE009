@@ -1,9 +1,12 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
+
+    <!DOCTYPE html>
+    <html lang="en">
+    <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Mobile Phone Keyboard</title>
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta name="Description" content="Enter your description here"/>
+    <title>Keyboard</title>
     <style>
         body {
             font-family: Arial, sans-serif;
@@ -13,6 +16,22 @@
             align-items: center;
             height: 100vh;
             margin: 0;
+        }
+        .container {
+            text-align: center;
+        }
+        .display {
+            width: 500px;
+            height: 50px;
+            margin-bottom: 10px;
+            padding: 10px;
+            background-color: white;
+            border: 1px solid #ccc;
+            border-radius: 10px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+            font-size: 18px;
+            text-align: left;
+            overflow: hidden;
         }
         .keyboard {
             display: grid;
@@ -31,9 +50,6 @@
             text-align: center;
             font-size: 18px;
         }
-        .key:active {
-            background-color: #bbb;
-        }
         .space {
             grid-column: span 5;
         }
@@ -42,43 +58,61 @@
         }
     </style>
 </head>
-<body>
-    <div class="keyboard">
-        <div class="key">Q</div>
-        <div class="key">W</div>
-        <div class="key">E</div>
-        <div class="key">R</div>
-        <div class="key">T</div>
-        <div class="key">Y</div>
-        <div class="key">U</div>
-        <div class="key">I</div>
-        <div class="key">O</div>
-        <div class="key">P</div>
-        <div class="key">A</div>
-        <div class="key">S</div>
-        <div class="key">D</div>
-        <div class="key">F</div>
-        <div class="key">G</div>
-        <div class="key">H</div>
-        <div class="key">J</div>
-        <div class="key">K</div>
-        <div class="key">L</div>
-        <div class="key">?</div>
-        <div class="key">*</div>
-        <div class="key">Z</div>
-        <div class="key">X</div>
-        <div class="key">C</div>
-        <div class="key">V</div>
-        <div class="key">B</div>
-        <div class="key">N</div>
-        <div class="key">M</div>
-        <div class="key enter">Enter</div>
-        <div class="key">/</div>
-        <div class="key">.</div>
-        <div class="key space">Space</div>
-        <div class="key">,</div>
-        <div class="key">()</div>
-        <div class="key">@</div>
-    </div>
-</body>
-</html>
+    <body>
+        <div class="container">
+            <input type="text" class="display" id="display" readonly="text" style="height: 50px; width: 560px; background-color: whitesmoke; color: black; padding: 5px;">
+            <div class="keyboard">
+                <div class="key" onclick="appendToDisplay('Q')">Q</div>
+                <div class="key" onclick="appendToDisplay('W')">W</div>
+                <div class="key" onclick="appendToDisplay('E')">E</div>
+                <div class="key" onclick="appendToDisplay('R')">R</div>
+                <div class="key" onclick="appendToDisplay('T')">T</div>
+                <div class="key" onclick="appendToDisplay('Y')">Y</div>
+                <div class="key" onclick="appendToDisplay('U')">U</div>
+                <div class="key" onclick="appendToDisplay('I')">I</div>
+                <div class="key" onclick="appendToDisplay('O')">O</div>
+                <div class="key" onclick="appendToDisplay('P')">P</div>
+                <div class="key" onclick="appendToDisplay('A')">A</div>
+                <div class="key" onclick="appendToDisplay('S')">S</div>
+                <div class="key" onclick="appendToDisplay('D')">D</div>
+                <div class="key" onclick="appendToDisplay('F')">F</div>
+                <div class="key" onclick="appendToDisplay('G')">G</div>
+                <div class="key" onclick="appendToDisplay('H')">H</div>
+                <div class="key" onclick="appendToDisplay('J')">J</div>
+                <div class="key" onclick="appendToDisplay('K')">K</div>
+                <div class="key" onclick="appendToDisplay('L')">L</div>
+                <div class="key" onclick="appendToDisplay('?')">?</div>
+                <div class="key" onclick="appendToDisplay('*')">*</div>
+                <div class="key" onclick="appendToDisplay('Z')">Z</div>
+                <div class="key" onclick="appendToDisplay('X')">X</div>
+                <div class="key" onclick="appendToDisplay('C')">C</div>
+                <div class="key" onclick="appendToDisplay('V')">V</div>
+                <div class="key" onclick="appendToDisplay('B')">B</div>
+                <div class="key" onclick="appendToDisplay('N')">N</div>
+                <div class="key" onclick="appendToDisplay('M')">M</div>
+                <div class="key enter" onclick="del()">Del</div>
+                <div class="key" onclick="appendToDisplay('/')">123</div>
+                <div class="key" onclick="appendToDisplay('.')">.</div>
+                <div class="key space" onclick="appendToDisplay(' ')">Space</div>
+                <div class="key" onclick="appendToDisplay(',')">,</div>
+                <div class="key" onclick="appendToDisplay('( )')">()</div>
+                <div class="key" onclick="appendToDisplay('@')">@</div>
+            </div>
+            <script>
+                var disp = document.getElementById("display");
+                
+                function appendToDisplay(value){
+                    disp.value += value;
+                }
+                function clearDisplay() {
+                    disp.value = "";   
+                }
+                function negate(){
+                disp.value*=-1;
+            }
+            function del(){
+                disp.value=disp.value.slice(0,-1);
+            }
+                </script>
+    </body>
+    </html>

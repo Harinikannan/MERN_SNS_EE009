@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>color flip</title>
+    <style>
+        body{
+            background-color:whitesmoke;
+        }
+</style>
+</head>
+<body>
+    <button onclick="flip()" class="bt btn-primary btn-lg">
+    flip
+</button>
+<script>
+
+    const body=document.getElementsByTagName('body')[0];
+    document.write(body);
+    function flip(){
+        var color='rgb('+Math.random()*255+','+Math.random()*255+','+Math.random()*255+')';
+        body.style.backgroundColor=color;
+    }
+</script>
+</body>
+</html>
