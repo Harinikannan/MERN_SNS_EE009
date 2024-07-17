@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta http-equiv="X-UA-Compatible" content="ie=edge">
+<meta name="Description" content="Enter your description here"/>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/5.1.0/css/bootstrap.min.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+<title>Weather application</title>
+</head>
+<body>
+    <div class="container">
+        <h1 class="display-2 fw-bold text-center text-primary bg-dark p-3"> Weather </h1>
+        <div class="card">
+            <div class="card-title text-center  mt-4 h1">Enter Location</div>
+            <div class="card-body">
+                <input placeholder="Ex: Coimbatore" type="text" class="w-50 m-auto form-control text-end p-2 display-2" id="city">
+            </div>
+        
+        <div class="card mt-4">
+                <div class="card-title text-center mt-4 h1">Weather Forecast</div>
+                <div class="card-body" id="weather-data">
+                    <p class="display-0">Current Temp <span id="temp"></span>*c</p>
+                    <p class="display-0">High <span id="High">0</span>*c to <span id="low">50</span>*c</p>
+                    <p class="display-0">Location <span id="city1">city</span></p>
+                    <p class="display-0">Humidity <span id="humid">0</span></p>
+                    <p class="display-0">wind speed <span id="wind">0</span></p>
+                    <p class="display-0"><span id="Desc">Desc</span></p>          
+                </div>
+            </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
